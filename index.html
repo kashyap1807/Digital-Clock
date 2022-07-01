@@ -8,33 +8,38 @@
     <style>
         #DigitalClock{
 
-            color:rgb(0, 0, 0);
-            margin: 10px;
-            padding: 10px;
-            padding-left: 10px;
-            border: 10px;
-            border-radius: 10px;
-            font-size: 20px;
-
-
+            color: rgb(3, 243, 243);
 
         }
         #head{
-            color: rgb(10, 10, 10);
-            margin: 10px;
-            padding: 10px;
-            padding-left: 10px;
-            border-radius: 10px;
-            font-size: 10px;
+            color: #ffffff;
         }
+        #clock {
+            font-family: 'Share Tech Mono', monospace;
+            
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        
+        }
+
+    body {
+        background-color: rgb(0, 0, 0);
+      
+    }
     </style>
+
 </head>
-<body>
+
+<body id="clock">
     <div id="head">
         <h1>Digital Clock</h1>
     </div>
-    
-    <div id="DigitalClock">
+    <br>
+
+    <div id="DigitalClock" style="font-size: 30px;" >
         
 
     <script type="text/javascript">
@@ -81,5 +86,6 @@
     </script>
 
     </div>
+    
 </body>
 </html>
